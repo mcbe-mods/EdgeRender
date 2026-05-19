@@ -1,0 +1,36 @@
+{
+  "name": "edge_render",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A Minecraft Bedrock addon that renders glowing edge outlines around selected blocks. Designed for programmatic use by other addons via IPC — highlight blocks per-player with smart edge culling.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && vite build --watch --mode development",
+    "build": "tsc && vite build && tsm scripts/package.ts",
+    "preview": "vite preview",
+    "postinstall": "tsm scripts/preinstall.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "@minecraft/server": ">=1.18.0"
+  },
+  "dependencies": {
+    "@mcbe-mods/ipc": "0.0.1-beta.4",
+    "@mcbe-mods/utils": "^0.1.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "@types/archiver": "^6.0.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.12.7",
+    "archiver": "^7.0.1",
+    "chokidar": "^3.6.0",
+    "eslint": "^9.39.4",
+    "fs-extra": "^11.2.0",
+    "tsm": "^2.3.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
