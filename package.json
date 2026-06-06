@@ -4,6 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "dev": "mcbe-create dev",
+    "devsync": "mcbe-create dev --sync",
+    "build": "mcbe-create build"
+  },
+  "devDependencies": {
+    "@mcbe-mods/create": "0.0.1-beta.3"
+  },
   "dependencies": {
     "@mcbe-mods/discover": "1.0.0-beta.3",
     "@mcbe-mods/rpc": "1.0.0-beta.0",
