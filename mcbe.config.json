@@ -1,0 +1,20 @@
+{
+  "name": "EdgeRender",
+  "version": "0.1.0",
+  "author": "Lete114",
+  "description": "Provides edge outline rendering for block selection",
+  "template": "default",
+  "uuids": {
+    "behaviorPack": "4e372dce-78c5-43f7-aaf8-562b4e3c3853",
+    "resourcePack": "99dcf484-9d32-4d9d-8d7e-11fd551c95c4",
+    "module": "df6a863a-b408-4111-8643-22d8bd17a581"
+  },
+  "hasScripts": true,
+  "language": "typescript",
+  "minecraftServerVersion": "1.18.0",
+  "minEngineVersion": [
+    1,
+    21,
+    0
+  ]
+}
