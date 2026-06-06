@@ -7,14 +7,18 @@
   "scripts": {
     "dev": "mcbe-create dev",
     "devsync": "mcbe-create dev --sync",
-    "build": "mcbe-create build"
-  },
-  "devDependencies": {
-    "@mcbe-mods/create": "0.0.1-beta.3"
+    "build": "mcbe-create build",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@mcbe-mods/discover": "1.0.0-beta.3",
     "@mcbe-mods/rpc": "1.0.0-beta.0",
     "@minecraft/server": "1.18.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "@mcbe-mods/create": "0.0.1-beta.3",
+    "eslint": "^10.3.0"
   }
 }
