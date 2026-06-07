@@ -1,8 +1,13 @@
 # EdgeRender
 
-A Minecraft Bedrock addon that renders glowing edge outlines around selected blocks. Designed for programmatic use by other addons via RPC + Service Discovery — highlight blocks per-player with smart edge culling.
-
-> Block highlighting logic inspired by [Utilities-Vein-Miner](https://github.com/Endermen76428/Utilities-Vein-Miner)
+<p>
+  <img src="./src/behavior_pack/pack_icon.png" width="140" align="left" alt="EdgeRender pack icon" >
+  A Minecraft Bedrock addon that renders glowing edge outlines around selected blocks. 
+  
+  Designed for programmatic use by other addons via RPC + Service Discovery — highlight blocks per-player with smart edge culling.
+</p>
+<br>
+<br>
 
 ## Features
 
@@ -16,6 +21,8 @@ A Minecraft Bedrock addon that renders glowing edge outlines around selected blo
 ## How it works
 
 EdgeRender spawns invisible entities at each selected block position, using a custom geometry model with 12 edge bones to render only the outward-facing edges. If two adjacent blocks are both selected, the shared edge is hidden automatically.
+
+> Block highlighting logic inspired by [Utilities-Vein-Miner](https://github.com/Endermen76428/Utilities-Vein-Miner)
 
 ## Usage
 
