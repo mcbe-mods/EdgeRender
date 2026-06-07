@@ -7,7 +7,6 @@
   Designed for programmatic use by other addons via RPC + Service Discovery — highlight blocks per-player with smart edge culling.
 </p>
 <br>
-<br>
 
 ## Features
 
