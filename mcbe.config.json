@@ -1,6 +1,6 @@
 {
   "name": "EdgeRender",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Lete114",
   "description": "Provides edge outline rendering for block selection",
   "template": "default",
