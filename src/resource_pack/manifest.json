@@ -7,7 +7,7 @@
     "version": [
       0,
       1,
-      0
+      1
     ],
     "min_engine_version": [
       1,
@@ -32,8 +32,12 @@
       "version": [
         0,
         1,
-        0
+        1
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "license": "MIT",
+    "url": "https://github.com/mcbe-mods"
+  }
 }

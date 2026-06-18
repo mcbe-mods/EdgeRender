@@ -2,7 +2,7 @@ import type { Player, Vector3 } from '@minecraft/server'
 import { RPC } from '@mcbe-mods/rpc'
 import { Discover } from '@mcbe-mods/discover'
 import { system, world } from '@minecraft/server'
-import config from '../../../mcbe.config.json'
+import config from '../../../package.json'
 
 const ENTITY_ID = 'edge_render:selected'
 
