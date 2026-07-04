@@ -109,38 +109,11 @@ catch (e) {
 
 > **Benefit**: Discovery confirms EdgeRender is actually running. If not found, you can show a user-friendly message or fall back gracefully, instead of waiting for a timeout.
 
-## Development
+## ✅ Compatibility
 
-### Prerequisites
-
-- Node.js >= 18
-- pnpm (enable via `corepack enable`)
-- Minecraft Bedrock 1.21.80+
-- `@minecraft/server` >= 1.18.0
-
-### Setup
-
-```bash
-pnpm install
-```
-
-### Dev mode
-
-```bash
-pnpm dev        # Build, watch, and sync to Minecraft dev folders
-```
-
-### Dev mode with sync
-
-```bash
-pnpm devsync    # Dev mode with auto-sync to development packs
-```
-
-### Build
-
-```bash
-pnpm build      # Build addon package
-```
+- Uses the stable `Script API@1.18.0` and is compatible with Minecraft `1.21.80` and above.
+- Requires both **Behavior Pack** and **Resource Pack** to be applied.
+- Achievements supported.
 
 ## ⛓️ Related Mods
 
