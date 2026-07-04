@@ -142,6 +142,11 @@ pnpm devsync    # Dev mode with auto-sync to development packs
 pnpm build      # Build addon package
 ```
 
+## ⛓️ Related Mods
+
+- [OrePop](https://github.com/mcbe-mods/OrePop) — chain mine entire ore veins with outline preview
+- [ChopPop](https://github.com/mcbe-mods/ChopPop) — instantly chop down entire trees with outline preview
+
 ## License
 
 [MIT](LICENSE)

@@ -12,13 +12,13 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
-    "@mcbe-mods/discover": "1.0.0-beta.4",
-    "@mcbe-mods/rpc": "1.0.0-beta.4",
+    "@mcbe-mods/discover": "1.0.0-beta.6",
+    "@mcbe-mods/rpc": "1.0.0-beta.6",
     "@minecraft/server": "1.18.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
-    "@mcbe-mods/create": "^0.0.1-beta.7",
+    "@mcbe-mods/create": "0.0.1-beta.8",
     "eslint": "^10.3.0"
   },
   "mcbe": {
